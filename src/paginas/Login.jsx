@@ -44,7 +44,10 @@ const Login = () => {
   const { msg } = alerta;
   return (
     <>
-      <div id='titulo' className='w-full h-96 bg-cover bg-no-repeat b-center'>
+      <div
+        id='titulo'
+        className='w-full h-96 bg-cover bg-no-repeat b-center bg-slate-600'
+      >
         <h1 className='text-lime-600 font-black text-6xl '>
           Inicia Sesión y Administra tus {""}
           <span className='text-orange-400'> Pacientes</span>
@@ -83,7 +86,7 @@ const Login = () => {
           <input
             type='submit'
             value='Iniciar Sesión'
-            className='bg-indigo-700 w-full py-3 px-10 rounded-xl text-white uppercase font-bold mt-5 hover:cursor-pointer hover:bg-indigo-800 md:w-auto '
+            className='bg-orange-600 w-full py-3 px-10 rounded-xl text-white uppercase font-bold mt-5 hover:cursor-pointer hover:bg-orange-700 md:w-auto '
           />
         </form>
 
