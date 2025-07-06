@@ -44,10 +44,7 @@ const Login = () => {
   const { msg } = alerta;
   return (
     <>
-      <div
-        id='titulo'
-        className='w-full h-96 bg-cover bg-no-repeat b-center bg-slate-600'
-      >
+      <div id='titulo' className='w-full h-96 bg-cover bg-no-repeat b-center '>
         <h1 className='text-lime-600 font-black text-6xl '>
           Inicia Sesión y Administra tus {""}
           <span className='text-orange-400'> Pacientes</span>
