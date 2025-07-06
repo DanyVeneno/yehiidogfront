@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(74, 75, 110);
+}
+#titulo {
+  background: url(https://res.cloudinary.com/dj0dedvu0/image/upload/v1751761524/dog_qqqh2i.png);
+}
